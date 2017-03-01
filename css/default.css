@@ -1,0 +1,383 @@
+@font-face {
+    font-family: lemonmilk;
+    src:url(../fonts/lemonmilk.otf);
+}
+
+body {
+    background-color: #004e27
+    }
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.title {
+    font-family: lemonmilk;
+    font-size:65px;
+    position: absolute; 
+    top: -198px;
+    left: -260px;
+    color: white;
+    -webkit-transform: rotate(-35deg);
+    -webkit-animation: title 2s forwards;
+    -webkit-animation-delay: 3s;
+    }
+
+@-webkit-keyframes title {
+    0%      {left: -740px; top: 790px; }
+    100%    {left: 60px; top: 198px; }
+    }
+
+
+.exhibit {
+    font-family: lemonmilk;
+    font-size: 40px;
+    position: absolute;
+    top: -328px;
+    left: -320px;
+    
+    -webkit-transform: rotate(-35deg);
+    -webkit-animation: exhibit 2s forwards;
+    -webkit-animation-delay: 4s;
+    }
+
+@-webkit-keyframes exhibit {
+    0%      {left: -740px; top: 1090px; }
+    100%    {left: 320px; top: 328px; }
+    }
+
+.location {
+    font-family: lemonmilk;
+    font-size: 40px;
+    position: absolute;
+    top: 2320px;
+    left: 2208px;
+    width: 800px;
+    
+    -webkit-transform: rotate(-35deg);
+    -webkit-animation: location 2s forwards;
+    -webkit-animation-delay: 5s;
+    }
+
+@-webkit-keyframes location {
+    0%      {left: 940px; top: -220px; }
+    100%    {left: 200px; top: 308px; }
+    }
+
+.date {
+    font-family: lemonmilk;
+    font-size: 40px;
+    position: absolute;
+    top: -470px;
+    left: -341px;
+    width: 500px;
+    
+    -webkit-transform: rotate(-35deg);
+    -webkit-animation: date 2s forwards;
+    -webkit-animation-delay: 5.5s;
+    }
+
+@-webkit-keyframes date {
+    0%      {left: -240px; top: 854px; }
+    100%    {left: 340px; top: 445px; }
+    }
+
+.description { 
+    color: #004e27;
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    font-size: 18px;
+    text-align: right;
+    width: 400px;
+    -webkit-animation: d_fade 5s;
+    animation-delay: 5.5s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes d_fade {
+        0% { opacity: 0; color: #004e27; }
+        100% { opacity: 100; color: white; }
+    
+    }
+
+
+.white {
+    width: 15px;
+    height: 400px;
+    background-color:white;
+    position: absolute;
+    top: -132px;
+        -webkit-transform: rotate(55deg);
+    }
+
+@-webkit-keyframes white {
+    0%      {left: 1000px; top: -840px; }
+    100%    {left: 0px; }
+    }
+
+.white {
+        position: relative;
+        -webkit-animation: white 1s;
+}
+    
+.yellow {
+    width: 65px;
+    height: 400px;
+    background-color:#fce012;
+    position: absolute;
+    top: -840px;
+    -webkit-transform: rotate(55deg);
+    -webkit-animation: yellow 2s forwards;
+    -webkit-animation-delay: -.1s;
+    }
+
+@-webkit-keyframes yellow {
+    0%      {left: -740px; top: 450px; }
+    100%    {left: 0px; top: -90px; }
+    }
+
+.white2 {
+    width: 15px;
+    height: 400px;
+    background-color:white;
+    position: absolute;
+    top: -350px;
+    left: 267px;
+        -webkit-transform: rotate(55deg);
+    -webkit-animation: white2 2s forwards;
+    -webkit-animation-delay: .9s;
+    }
+    
+@-webkit-keyframes white2 {
+    0%      {left: 470px; top: -340px; }
+    100%    {left: 200px; top: -153px; }
+    }
+
+.yellow2 {
+    width: 65px;
+    height: 400px;
+    background-color:#fce012;
+    position: absolute;
+    top: -100px;
+    left: -338px;
+        -webkit-transform: rotate(55deg);
+        -webkit-animation: yellow2 2s forwards;
+        -webkit-animation-delay: 1.5s;
+    }
+    
+@-webkit-keyframes yellow2 {
+    0%      {left: -450px; top: 340px; }
+    100%    {left: 290px; top: -173px; }
+    }
+
+
+.white3 {
+    width: 15px;
+    height: 400px;
+    background-color:white;
+    position: absolute;
+    top: -42px;
+    left: -303px;
+        -webkit-transform: rotate(55deg);
+        -webkit-animation: white3 2s forwards;
+        -webkit-animation-delay: 2s;
+    }
+    
+@-webkit-keyframes white3 {
+    0%      {left: 640px; top: -340px; }
+    100%    {left: 88px; top: 46px; }
+    }
+
+
+.yellow3 {
+    width: 65px;
+    height: 800px;
+    background-color:#fce012;
+    position: absolute;
+    top: -89px;
+    left: -457px;
+        -webkit-transform: rotate(55deg);
+        -webkit-animation: yellow3 2s forwards;
+        -webkit-animation-delay: 2.2s;
+    }
+    
+@-webkit-keyframes yellow3 {
+    0%      {left: -640px; top: 400px; }
+    100%    {left: 67px; top: -96px; }
+    }
+
+.white4 {
+    width: 15px;
+    height: 500px;
+    background-color:white;
+    position: absolute;
+    top: -138px;
+    left: -453px;
+        -webkit-transform: rotate(55deg);
+        -webkit-animation: white4 2s forwards;
+        -webkit-animation-delay: 2.9s;
+    }
+    
+@-webkit-keyframes white4 {
+    0%      {left: 840px; top: -410px; }
+    100%    {left: 429px; top: -120px; }
+    }
+
+    
+
+.yellow4 {
+    width: 65px;
+    height: 800px;
+    background-color:#fce012;
+    position: absolute;
+    top: 248px;
+    left: -447px;
+        -webkit-transform: rotate(55deg);
+        -webkit-animation: yellow4 2s forwards;
+        -webkit-animation-delay: 2.5s;
+    }
+    
+@-webkit-keyframes yellow4 {
+    0%      {left: -840px; top: 680px; }
+    100%    {left: -250px; top: 250px; }
+    }
+
+
+.white5 {
+    width: 15px;
+    height: 900px;
+    background-color:white;
+    position: absolute;
+    top: 150px;
+    left: -421px;
+        -webkit-transform: rotate(55deg);
+        -webkit-animation: white5 2s forwards;
+        -webkit-animation-delay: 2.9s;
+    }
+    
+@-webkit-keyframes white5 {
+    0%      {left: -840px; top: 690px; }
+    100%    {left: 250px; top: -70px; }
+    
+    }
+
+.yellow5 {
+    width: 65px;
+    height: 800px;
+    background-color:#fce012;
+    position: absolute;
+    top: 590px;
+    left: 947px;
+        -webkit-transform: rotate(55deg);
+        -webkit-animation: yellow5 2s forwards;
+        -webkit-animation-delay: 2.6s;
+    }
+    
+@-webkit-keyframes yellow5 {
+    0%      {left: 1090px; top: -680px; }
+    100%    {left: 947px; top: -590px; }
+    }
+
+
+.yellow6 {
+    width: 65px;
+    height: 800px;
+    background-color:#fce012;
+    position: absolute;
+    top: 126px;
+    left: -405px;
+        -webkit-transform: rotate(55deg);
+        -webkit-animation: yellow6 2s forwards;
+        -webkit-animation-delay: 3.3s;
+    }
+    
+@-webkit-keyframes yellow6 {
+    0%      {left: -400px; top: 480px; }
+    100%    {left: 105px; top: 126px; }
+    }
+
+.white6 {
+    width: 15px;
+    height: 900px;
+    background-color:white;
+    position: absolute;
+    top: -1050px;
+    left: 16685px;
+        -webkit-transform: rotate(55deg);
+        -webkit-animation: white6 2s forwards;
+        -webkit-animation-delay: 3.6s;
+    }
+    
+@-webkit-keyframes white6 {
+    0%      {left: 1300px; top: -690px; }
+    100%    {left: 685px; top: -250px; }
+    }
+
+
+.yellow7 {
+    width: 65px;
+    height: 1200px;
+    background-color:#fce012;
+    position: absolute;
+    top: -361px;
+    left: 1895px;
+        -webkit-transform: rotate(55deg);
+        -webkit-animation: yellow7 2s forwards;
+        -webkit-animation-delay: 3.9s;
+    }
+    
+@-webkit-keyframes yellow7 {
+    0%      {left: -600px; top: 545px; }
+    100%    {left: 695px; top: -361px; }
+    }
+    
+
+.white7 {
+    width: 15px;
+    height: 1400px;
+    background-color:white;
+    position: absolute;
+    top: -400px;
+    left: -496px;
+        -webkit-transform: rotate(55deg);
+        -webkit-animation: white7 2s forwards;
+        -webkit-animation-delay: 4.1s;
+    }
+    
+@-webkit-keyframes white7 {
+    0%      {left: -800px; top: 675px; }
+    100%    {left: 225px; top: -50px; }
+    }
+    
+
+.yellow8 {
+    width: 65px;
+    height: 1200px;
+    background-color:#fce012;
+    position: absolute;
+    top: -490px;
+    left: -245px;
+        -webkit-transform: rotate(55deg);
+        -webkit-animation: yellow8 2s forwards;
+        -webkit-animation-delay: 4.3s;
+    }
+    
+@-webkit-keyframes yellow8 {
+    0%      {left: -800px; top: 825px; }
+    100%    {left: 225px; top: 97px; }
+    }
+
+
+
+
+
+
